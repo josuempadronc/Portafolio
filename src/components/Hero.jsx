@@ -42,12 +42,14 @@ const Hero = () => {
                 className="sm:text-battleGray sm:text-[90px] 
                 text-eerieBlack text-[50px] font-mova
                 font-extrabold uppercase">
-                
+
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-            Desarrollador Full Stack | ReactJS | Angular | Laravel
-            
+              Desarrollador Full Stack Laravel | ReactJS | Angular | Ionic
+              | Tailwind | CSS | JavaScript | PHP | SAAS | HTML5 | Bootstrap |
+              Strapi | WordPress | Wix | SEO | MySql | Git | GitHub | Gitlab | BitBucket.
+
               {/* Lorem ipsum dolor sit amet. <br className="sm:block hidden" />
               consectetur adipisicing elit deleniti, voluptas. */}
             </p>

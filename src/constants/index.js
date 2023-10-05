@@ -2,7 +2,7 @@ import {
   frontend,
   backend,
   ux,
-  prototyping,
+  // prototyping,
   javascript,
   typescript,
   html,
@@ -17,33 +17,43 @@ import {
   postgresql,
   rubyrails,
   graphql,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
-  coverhunt,
+  // komikult,
+  // leaderboard,
+  // math,
+  // movie,
+  // nyeusi,
+  // space,
+  // coverhunt,
   dcc,
-  kelhel,
-  microverse,
+  // kelhel,
+  // microverse,
+  markdebrand,
+  Prismahexagon,
+  markdebrandworldwide,
+  mosaicformula,
+  iqlabhack,
+  neurolinkpeople,
+  verticalvirtualcall,
+  platformideas,
+  youloveflowers,
+  inversoraceta,
+  Jpadron,
 } from '../assets';
 
 export const navLinks = [
   {
     id: 'about',
-    title: 'About',
+    title: 'Sobre Mi',
   },
   {
     id: 'projects',
-    title: 'Projects',
+    title: 'Projectos',
   },
   {
     id: 'contact',
-    title: 'Contact',
+    title: 'Contacto',
   },
 ];
-
 const services = [
   {
     title: 'Frontend Developer',
@@ -57,12 +67,11 @@ const services = [
     title: 'UI/UX Design',
     icon: ux,
   },
-  {
-    title: 'Software Prototyping',
-    icon: prototyping,
-  },
+  // {
+  //   title: 'Software Prototyping',
+  //   icon: prototyping,
+  // },
 ];
-
 const technologies = [
   {
     name: 'HTML 5',
@@ -121,151 +130,406 @@ const technologies = [
     icon: docker,
   },
 ];
-
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
-    iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
-  },
-  {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
-    iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
-  },
-  {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
-    iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
-  },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
+    title: 'Full-Stack Developer Freelancer',
+    company_name: 'ADGYM',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Abr 2023 - Jul 2023',
+  },
+  {
+    title: 'Frond-End Developer Freelancer',
+    company_name: 'Personal',
+    icon: dcc,
+    iconBg: '#333333',
+    date: 'Jul 2023',
+  },
+  {
+    title: 'Frond-End Developer Freelancer (ReactJS)',
+    company_name: 'Personal',
+    icon: dcc,
+    iconBg: '#333333',
+    date: 'Abr 2023 - Jul 2023',
+  },
+  {
+    title: 'Developer Freelancer WordPress/SEO',
+    company_name: 'Inversora Aceta',
+    icon: dcc,
+    iconBg: '#333333',
+    date: 'Abr 2022 - May 2022',
+  },
+  {
+    title: 'Frond-End Developer Freelancer (ReactJS)',
+    company_name: 'FoundRof',
+    icon: dcc,
+    iconBg: '#333333',
+    date: 'Feb 2022 - Abr 2022',
+  },
+  {
+    title: 'Developer WordPress/SEO/Wix',
+    company_name: 'MarckdeBrand Agency',
+    icon: dcc,
+    iconBg: '#333333',
+    date: 'Sep 2021 - Feb 2022',
+  },
+  {
+    title: 'Frond-End Developer Freelancer (Laravel 7)',
+    company_name: 'Vive Activo',
+    icon: dcc,
+    iconBg: '#333333',
+    date: 'Ene 2021 - Jul 2021',
+  },
+  {
+    title: 'Full-Stack Developer Freelancer (PHP 7)',
+    company_name: 'Tecnilentes',
+    icon: dcc,
+    iconBg: '#333333',
+    date: 'Oct 2019 - Oct 2020',
   },
 ];
-
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'markdebrand',
+    description: 'Markdebrand es una agencia de marketing.',
     tags: [
       {
-        name: 'react',
+        name: 'Wordpress',
         color: 'blue-text-gradient',
       },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
+      // {
+      //   name: 'mongodb',
+      //   color: 'green-text-gradient',
+      // },
+      // {
+      //   name: 'tailwind',
+      //   color: 'pink-text-gradient',
+      // },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    image: markdebrand,
+    // repo: 'https://github.com/shaqdeff/KomiKult',
+    demo: 'https://markdebrand.com/',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Prismahexagon',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'Prisma Hexagon es una agencia de desarrollo de aplicaciones móviles y web interactivas MVP.',
     tags: [
       {
-        name: 'react',
+        name: 'Wix',
         color: 'blue-text-gradient',
       },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
+      // {
+      //   name: 'restapi',
+      //   color: 'green-text-gradient',
+      // },
+      // {
+      //   name: 'scss',
+      //   color: 'pink-text-gradient',
+      // },
     ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    image: Prismahexagon,
+    // repo: 'https://github.com/shaqdeff/Leaderboard',
+    demo: 'https://prismahexagon.com/',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'Markdebrand Worldwide',
+    description: 'HOLDING INCUBATOR COMPANY',
     tags: [
       {
-        name: 'nextjs',
+        name: 'Wordpress',
         color: 'blue-text-gradient',
       },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
+      // {
+      //   name: 'supabase',
+      //   color: 'green-text-gradient',
+      // },
+      // {
+      //   name: 'css',
+      //   color: 'pink-text-gradient',
+      // },
     ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    image: markdebrandworldwide,
+    // repo: 'https://github.com/shaqdeff/Math-Magicians',
+    demo: 'https://markdebrandworldwide.com/',
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'Mosaic formula',
+    description: `Platafroma Educativa.`,
     tags: [
       {
-        name: 'nextjs',
+        name: 'Wix',
         color: 'blue-text-gradient',
       },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
+      // {
+      //   name: 'supabase',
+      //   color: 'green-text-gradient',
+      // },
+      // {
+      //   name: 'css',
+      //   color: 'pink-text-gradient',
+      // },
     ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    image: mosaicformula,
+    // repo: 'https://github.com/shaqdeff/Movie-Metro',
+    demo: 'https://mosaicformula.com/',
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'Iqlabhack',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'Landig page.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'wix',
         color: 'blue-text-gradient',
       },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
+      // {
+      //   name: 'supabase',
+      //   color: 'green-text-gradient',
+      // },
+      // {
+      //   name: 'css',
+      //   color: 'pink-text-gradient',
+      // },
     ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    image: iqlabhack,
+    // repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
+    demo: 'https://iqlabhack.com/',
   },
 ];
+const projectss = [
+  {
+    id: 'project-1',
+    name: 'neurolinkpeople',
+    description: 'Plataforma de reclutamiento.',
+    tags: [
+      {
+        name: 'Wordpress',
+        color: 'blue-text-gradient',
+      },
+      // {
+      //   name: 'mongodb',
+      //   color: 'green-text-gradient',
+      // },
+      // {
+      //   name: 'tailwind',
+      //   color: 'pink-text-gradient',
+      // },
+    ],
+    image: neurolinkpeople,
+    // repo: 'https://github.com/shaqdeff/KomiKult',
+    demo: 'https://neurolinkpeople.com/en/',
+  },
+  {
+    id: 'project-2',
+    name: 'verticalvirtualcall',
+    description:
+      'Landing Page plataforma de Call Center',
+    tags: [
+      {
+        name: 'Wix',
+        color: 'blue-text-gradient',
+      },
+      // {
+      //   name: 'restapi',
+      //   color: 'green-text-gradient',
+      // },
+      // {
+      //   name: 'scss',
+      //   color: 'pink-text-gradient',
+      // },
+    ],
+    image: verticalvirtualcall,
+    // repo: 'https://github.com/shaqdeff/Leaderboard',
+    demo: 'https://verticalvirtualcall.com/',
+  },
+  {
+    id: 'project-3',
+    name: 'platformideas',
+    description: 'Sitio web empresarial',
+    tags: [
+      {
+        name: 'Wix',
+        color: 'blue-text-gradient',
+      },
+      // {
+      //   name: 'supabase',
+      //   color: 'green-text-gradient',
+      // },
+      // {
+      //   name: 'css',
+      //   color: 'pink-text-gradient',
+      // },
+    ],
+    image: platformideas,
+    // repo: 'https://github.com/shaqdeff/Math-Magicians',
+    demo: 'https://platformideas.com/es/',
+  },
+  {
+    id: 'project-4',
+    name: 'youloveflowers',
+    description: `Platafroma Educativa.`,
+    tags: [
+      {
+        name: 'Wix',
+        color: 'blue-text-gradient',
+      },
+      // {
+      //   name: 'supabase',
+      //   color: 'green-text-gradient',
+      // },
+      // {
+      //   name: 'css',
+      //   color: 'pink-text-gradient',
+      // },
+    ],
+    image: youloveflowers,
+    // repo: 'https://github.com/shaqdeff/Movie-Metro',
+    demo: 'https://youloveflowers.com/',
+  },
+  {
+    id: 'project-5',
+    name: 'inversoraceta',
+    description: 'Sitio web empresa de Aceros.',
+    tags: [
+      {
+        name: 'Wordpress',
+        color: 'blue-text-gradient',
+      },
+      // {
+      //   name: 'supabase',
+      //   color: 'green-text-gradient',
+      // },
+      // {
+      //   name: 'css',
+      //   color: 'pink-text-gradient',
+      // },
+    ],
+    image: inversoraceta,
+    // repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
+    demo: 'https://inversoraceta.com/',
+  },
+];
+const projectsss = [
+  {
+    id: 'project-1',
+    name: 'Proyectos en Github',
+    description: 'Proyectos realizadon en forma de practica con laravel, reactjs, strapi ',
+    tags: [
+      // {
+      //   name: 'Wordpress',
+      //   color: 'blue-text-gradient',
+      // },
+      // {
+      //   name: 'mongodb',
+      //   color: 'green-text-gradient',
+      // },
+      // {
+      //   name: 'tailwind',
+      //   color: 'pink-text-gradient',
+      // },
+    ],
+    image: Jpadron,
+    // repo: 'https://github.com/shaqdeff/KomiKult',
+    demo: 'https://github.com/josuempadronc?tab=repositories',
+  },
+  {
+    id: 'project-2',
+    name: 'Futuros Proyectos',
+    // description:
+    //   'Prisma Hexagon es una agencia de desarrollo de aplicaciones móviles y web interactivas MVP.',
+    // tags: [
+    //   {
+    //     name: 'Wix',
+    //     color: 'blue-text-gradient',
+    //   },
+    //   // {
+    //   //   name: 'restapi',
+    //   //   color: 'green-text-gradient',
+    //   // },
+    //   // {
+    //   //   name: 'scss',
+    //   //   color: 'pink-text-gradient',
+    //   // },
+    // ],
+    // image: Prismahexagon,
+    // // repo: 'https://github.com/shaqdeff/Leaderboard',
+    // demo: 'https://prismahexagon.com/',
+    demo: 'https://github.com/josuempadronc?tab=repositories'
+  },
+  // {
+  //   id: 'project-3',
+  //   // name: 'Markdebrand Worldwide',
+  //   // description: 'HOLDING INCUBATOR COMPANY',
+  //   // tags: [
+  //   //   {
+  //   //     name: 'Wordpress',
+  //   //     color: 'blue-text-gradient',
+  //   //   },
+  //   //   // {
+  //   //   //   name: 'supabase',
+  //   //   //   color: 'green-text-gradient',
+  //   //   // },
+  //   //   // {
+  //   //   //   name: 'css',
+  //   //   //   color: 'pink-text-gradient',
+  //   //   // },
+  //   // ],
+  //   // image: markdebrandworldwide,
+  //   // // repo: 'https://github.com/shaqdeff/Math-Magicians',
+  //   // demo: 'https://markdebrandworldwide.com/',
+  // },
+  // {
+  //   id: 'project-4',
+  //   // name: 'Mosaic formula',
+  //   // description: `Platafroma Educativa.`,
+  //   // tags: [
+  //   //   {
+  //   //     name: 'Wix',
+  //   //     color: 'blue-text-gradient',
+  //   //   },
+  //   //   // {
+  //   //   //   name: 'supabase',
+  //   //   //   color: 'green-text-gradient',
+  //   //   // },
+  //   //   // {
+  //   //   //   name: 'css',
+  //   //   //   color: 'pink-text-gradient',
+  //   //   // },
+  //   // ],
+  //   // image: mosaicformula,
+  //   // // repo: 'https://github.com/shaqdeff/Movie-Metro',
+  //   // demo: 'https://mosaicformula.com/',
+  // },
+  // {
+  //   id: 'project-5',
+  //   // name: 'Iqlabhack',
+  //   // description:
+  //   //   'Landig page.',
+  //   // tags: [
+  //   //   {
+  //   //     name: 'wix',
+  //   //     color: 'blue-text-gradient',
+  //   //   },
+  //   //   // {
+  //   //   //   name: 'supabase',
+  //   //   //   color: 'green-text-gradient',
+  //   //   // },
+  //   //   // {
+  //   //   //   name: 'css',
+  //   //   //   color: 'pink-text-gradient',
+  //   //   // },
+  //   // ],
+  //   // image: iqlabhack,
+  //   // // repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
+  //   // demo: 'https://iqlabhack.com/',
+  // },
+ 
+];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, projects, projectss, projectsss };

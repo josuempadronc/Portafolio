@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { SectionWrapper } from '../hoc';
 import { styles } from '../styles';
-import { github, pineapple, pineappleHover } from '../assets';
-import { projects } from '../constants';
+import {  pineapple, pineappleHover } from '../assets';
+import { projects, projectss, projectsss } from '../constants';
 import { fadeIn, textVariant, staggerContainer } from '../utils/motion';
 
 const ProjectCard = ({
@@ -50,20 +50,6 @@ const ProjectCard = ({
           <div
             className="absolute bottom-0 p-8 justify-start w-full 
             flex-col bg-[rgba(122,122,122,0.5)] rounded-b-[24px] z-20">
-            <div className="absolute inset-0 flex justify-end m-3">
-              <div
-                onClick={() => window.open(repo, '_blank')}
-                className="bg-night sm:w-11 sm:h-11 w-10 h-10 rounded-full 
-                  flex justify-center items-center cursor-pointer
-                  sm:opacity-[0.9] opacity-[0.8]">
-                <img
-                  src={github}
-                  alt="source code"
-                  className="w-4/5 h-4/5 object-contain"
-                />
-              </div>
-            </div>
-
             <h2
               className="font-bold sm:text-[32px] text-[24px] 
               text-timberWolf uppercase font-beckman sm:mt-0 -mt-[1rem]">
@@ -79,8 +65,8 @@ const ProjectCard = ({
               className="live-demo flex justify-between 
               sm:text-[16px] text-[14px] text-timberWolf 
               font-bold font-beckman items-center py-5 pl-2 pr-3 
-              whitespace-nowrap gap-1 sm:w-[138px] sm:h-[50px] 
-              w-[125px] h-[46px] rounded-[10px] glassmorphism 
+              whitespace-nowrap gap-1 sm:w-[100px] sm:h-[50px] 
+              w-[100px] h-[46px] rounded-[10px] glassmorphism 
               sm:mt-[22px] mt-[16px] hover:bg-battleGray 
               hover:text-eerieBlack transition duration-[0.2s] 
               ease-in-out"
@@ -101,7 +87,7 @@ const ProjectCard = ({
                 className="btn-icon sm:w-[34px] sm:h-[34px] 
                   w-[30px] h-[30px] object-contain"
               />
-              LIVE DEMO
+              Ver
             </button>
           </div>
         </>
@@ -116,19 +102,19 @@ const Projects = () => {
   return (
     <div className="-mt-[6rem]">
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>Case Studies</p>
-        <h2 className={`${styles.sectionHeadTextLight}`}>Projects.</h2>
+        {/* <p className={`${styles.sectionSubText} `}>Case Studies</p> */}
+        <h2 className={`${styles.sectionHeadTextLight}`}>Projectos</h2>
       </motion.div>
 
       <div className="w-full flex">
         <motion.p
           variants={fadeIn('', '', 0.1, 1)}
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-          These projects demonstrate my expertise with practical examples of
-          some of my work, including brief descriptions and links to code
-          repositories and live demos. They showcase my ability to tackle
-          intricate challenges, adapt to various technologies, and efficiently
-          oversee projects.
+          Estos proyectos demuestran mi experiencia con ejemplos prácticos de algunos de mis trabajos,
+          incluidas breves descripciones y enlaces a repositorios de código y demostraciones en vivo.
+          Muestran mi capacidad para abordar desafíos complejos, adaptarme a diversas tecnologías y 
+          supervisar proyectos de manera eficiente.
+          
         </motion.p>
       </div>
 
@@ -144,6 +130,42 @@ const Projects = () => {
               key={project.id}
               index={index}
               {...project}
+              active={active}
+              handleClick={setActive}
+            />
+          ))}
+        </div>
+      </motion.div>
+      <motion.div
+        variants={staggerContainer}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0.25 }}
+        className={`${styles.innerWidth} mx-auto flex flex-col`}>
+        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
+          {projectss.map((projects, index) => (
+            <ProjectCard
+              key={projects.id}
+              index={index}
+              {...projects}
+              active={active}
+              handleClick={setActive}
+            />
+          ))}
+        </div>
+      </motion.div>
+      <motion.div
+        variants={staggerContainer}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0.25 }}
+        className={`${styles.innerWidth} mx-auto flex flex-col`}>
+        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
+          {projectsss.map((projects, index) => (
+            <ProjectCard
+              key={projects.id}
+              index={index}
+              {...projects}
               active={active}
               handleClick={setActive}
             />

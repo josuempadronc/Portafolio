@@ -30,19 +30,20 @@ const About = () => {
   return (
     <div className="-mt-[6rem]">
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        {/* <p className={styles.sectionSubText}>Introduction</p> */}
+        <h2 className={styles.sectionHeadText}>Sobre Mi</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        Soy un desarrollador Full-stack con 4 años de experiencia profesional en el
+        ámbito de la tecnología. Eh trabajado con Laravel | ReactJS | Angular | Ionic
+        | Tailwind | CSS | JavaScript | PHP | SAAS | HTML5 | Bootstrap | Strapi | WordPress
+        | Wix | SEO | MySql | Git | GitHub | Gitlab | BitBucket. Estoy familiarizado con las
+        tendencias tecnológicas, soy una persona capacitada para alcanzar objetivos en un entorno
+        de trabajo remoto. Estoy en busca de una posición en una empresa de tecnología o una startup,
+        donde pueda aportar mi experiencia en el desarrollo Full-stack. Conozco Figma Basico.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
