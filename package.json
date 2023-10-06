@@ -1,9 +1,9 @@
 {
+  "homepage": "https://josuempadronc.github.io/Portafolio/",
   "name": "Jpadron",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://josuempadronc.github.io/Portafolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
